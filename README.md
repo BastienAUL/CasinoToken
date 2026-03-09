@@ -8,8 +8,8 @@ CasinoToken est un plugin Minecraft pour **serveurs Spigot/Paper** qui permet au
 
 - Acheter des jetons via une interface GUI (`/buytoken`)  
 - Vendre ses jetons et récupérer de l’argent (`/selltoken`)  
-- Définir le propriétaire du casino (`/owner <pseudo>`)  
-- Vérifier qui est le propriétaire (`/casinoowner`)  
+- Définir le propriétaire du casino (`/setowner <pseudo>`)  
+- Vérifier qui est le propriétaire (`/owner`)  
 - Compatible avec **Vault** et tout plugin d’économie (EssentialsX, etc.)  
 
 ---
@@ -18,8 +18,8 @@ CasinoToken est un plugin Minecraft pour **serveurs Spigot/Paper** qui permet au
 
 | Commande        | Description |
 |-----------------|-------------|
-| `/owner <pseudo>` | Définit le propriétaire du casino |
-| `/casinoowner`  | Affiche le propriétaire actuel |
+| `/setowner <pseudo>` | Définit le propriétaire du casino |
+| `/owner`  | Affiche le propriétaire actuel |
 | `/buytoken`     | Ouvre l’interface d’achat de jetons |
 | `/selltoken`    | Vend tous les jetons présents dans l’inventaire |
 
@@ -39,7 +39,7 @@ CasinoToken est un plugin Minecraft pour **serveurs Spigot/Paper** qui permet au
 2. Placez-le dans le dossier `plugins/` de votre serveur Spigot/Paper.  
 3. Assurez-vous que **Vault** et un plugin d’économie sont installés.  
 4. Redémarrez le serveur.  
-5. Définissez un propriétaire avec `/owner <pseudo>` avant de vendre ou acheter des jetons.
+5. Définissez un propriétaire avec `/setowner <pseudo>` avant de vendre ou acheter des jetons.
 
 ---
 
