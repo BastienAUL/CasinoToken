@@ -1,0 +1,22 @@
+name: CasinoToken
+version: '1.0-SNAPSHOT'
+main: fr.baulney.casinoToken.CasinoToken
+author: Bastien Aulney
+api-version: '1.21'
+depend: [Vault]
+commands :
+  buytoken:
+    description: Buy token to the Casino
+    usage: /buytoken
+  selltoken:
+    description: Sell token to the Casino
+    usage: /selltoken
+  owner:
+    description: See who is the Casino owner
+    usage: /owner
+  setowner:
+    description: Define the Casino owner
+    usage: /setowner [name]
+permissions:
+  casino.owner:
+    default: op
