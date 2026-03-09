@@ -1,5 +1,7 @@
 # CasinoToken
 
+ATTENTION , CECI N'EST QUE LE FICHIER SOURCE DU PROJET , POUR TELECHARGER LE PLUGIN , RENDEZ VOUS SUR [MODRINT](https://modrinth.com/plugin/casinotoken)
+
 CasinoToken est un plugin Minecraft pour **serveurs Spigot/Paper** qui permet aux joueurs d’acheter et vendre des jetons pour un casino. L’argent des achats est automatiquement transféré au propriétaire du casino défini par l’admin.
 
 ---
